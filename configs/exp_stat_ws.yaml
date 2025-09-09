@@ -1,0 +1,16 @@
+seed: 42
+n_trials: 100
+horizon: 50000
+task: stat
+methods:
+  - RankStatistic
+folder: exp_stat
+data: groups
+n: 500
+outlier: 10
+shuffle: true
+eps: 0.1
+graph: Watts-Strogatz
+verbose: false
+rank: GoRankAsync
+sampling: async

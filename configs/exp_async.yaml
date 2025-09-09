@@ -1,0 +1,14 @@
+seed: 42
+n_trials: 100
+horizon: 50000
+task: ranking
+methods:
+  - GoRank
+  - GoRankAsync
+folder: exp_async
+data: arange
+n: 500
+shuffle: true
+graph: Watts-Strogatz
+verbose: false
+sampling: async
