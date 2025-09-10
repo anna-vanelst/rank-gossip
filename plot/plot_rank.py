@@ -6,6 +6,7 @@ import numpy as np
 
 
 def main(exp_name, save_path="plot_rank_c.pdf"):
+    """Plot the ranking error over timesteps."""
     ### Load the configuration and results ###
     config_path = os.path.join("results", "outputs", exp_name, "config.yaml")
     config = OmegaConf.load(config_path)

@@ -15,6 +15,7 @@ from src.rank import GoRankAsync
 
 
 def main(exp_names, save_path):
+    """Plot the estimation error of the rank statistic over timesteps for different graph types."""
     ### Plot config ###
     fig, ax = plt.subplots(figsize=(3.2, 3.0))
     fontsize = 12

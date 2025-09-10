@@ -7,6 +7,7 @@ from scipy.stats import trim_mean
 
 
 def main(exp_name, save_path="plot_trim_b.pdf"):
+    """Plot the estimation error of the trimmed mean over timesteps."""
     ### Load the configuration and results ###
     config_path = os.path.join("results", "outputs", exp_name, "config.yaml")
     config = OmegaConf.load(config_path)
