@@ -1,6 +1,19 @@
 # Asynchronous Gossip Algorithms for Rank-Based Statistical Methods
 
-This repository contains the official implementation of the experiments and figures in our paper, designed to make our research reproducible. 
+This repository contains the official implementation of the experiments and figures in our paper, designed to make our research reproducible.
+You can find the preprint [here](https://arxiv.org/pdf/2509.07543).
+
+## Citation
+
+If you find this work useful, please consider citing our paper:
+```bibtex
+@article{van2025asynchronous,
+  title={Asynchronous Gossip Algorithms for Rank-Based Statistical Methods},
+  author={Van Elst, Anna and Colin, Igor and Cl{\'e}men{\c{c}}on, Stephan},
+  journal={To appear in the Proceedings of The International Symposium on Edge intelligence, Trustworthy and Decentralized Artificial Intelligence(iEDGE)},
+  year={2025}
+}
+```
 
 ## Repository Structure
 
