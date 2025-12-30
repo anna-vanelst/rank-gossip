@@ -10,7 +10,7 @@ If you find this work useful, please consider citing our paper:
 @article{van2025asynchronous,
   title={Asynchronous Gossip Algorithms for Rank-Based Statistical Methods},
   author={Van Elst, Anna and Colin, Igor and Cl{\'e}men{\c{c}}on, Stephan},
-  journal={To appear in the Proceedings of The International Symposium on Edge intelligence, Trustworthy and Decentralized Artificial Intelligence(iEDGE)},
+  journal={To appear in International Conference on Federated Learning Technologies and Applications (FLTA)},
   year={2025}
 }
 ```
